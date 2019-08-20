@@ -1,0 +1,48 @@
+html {
+  background: url("white.jpg") no-repeat center center fixed;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.navbar {
+  font-size: 1.8em;
+  top: 0%;
+  left: 50%;
+  right: 0%;
+  font-family: "Georgia";
+}
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.socialIcons{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  padding: 5px;
+  font-size: 25px;
+}
