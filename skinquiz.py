@@ -1,2 +1,0 @@
-def skin_quiz
-    
