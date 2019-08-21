@@ -1,26 +1,36 @@
-.rotateimg90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+html {
+  background: url("background_53876-32169.jpg") no-repeat center center fixed;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
 }
+
 .header {
+  background-color: #7095CC;
   width: auto;
   height: auto;
-  font-family: Georgia;
-  font-size: 40px;
+  font-family: 'Cormorant SC', serif;
+  font-size: 30px;
   /* border-style: solid;
   border-color: black; */
 }
 .bodyText {
   font-family:"Georgia";
-  font-size: 18px;
-  /* font-style: italic; */
-  /* border-style: solid;
+  font-size: 15px;
+  font-style: italic;
+  border-style: solid;
   border-color: #:#0c0d17;
-  padding: 1.1em; */
+  padding: 1em;
 
+}
+.text {
+  text-indent: 50px;
+}
+
+#titleText {
+  border-style: solid;
+  border-color: black;
 }
 .navbar {
   font-size: 1.8em;
